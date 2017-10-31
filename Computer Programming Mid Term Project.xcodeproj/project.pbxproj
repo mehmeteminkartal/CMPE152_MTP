@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D1B2B4E91FA8F80C007197A5 /* findroots.c in Sources */ = {isa = PBXBuildFile; fileRef = D1B2B4E81FA8F80C007197A5 /* findroots.c */; };
 		D1B741081FA8E86100BF3DB2 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = D1B741071FA8E86100BF3DB2 /* main.c */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D1B2B4E71FA8F80B007197A5 /* findroots.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = findroots.h; sourceTree = "<group>"; };
+		D1B2B4E81FA8F80C007197A5 /* findroots.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = findroots.c; sourceTree = "<group>"; };
 		D1B741041FA8E86100BF3DB2 /* Computer Programming Mid Term Project */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Computer Programming Mid Term Project"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1B741071FA8E86100BF3DB2 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,6 +60,8 @@
 		D1B741061FA8E86100BF3DB2 /* Computer Programming Mid Term Project */ = {
 			isa = PBXGroup;
 			children = (
+				D1B2B4E81FA8F80C007197A5 /* findroots.c */,
+				D1B2B4E71FA8F80B007197A5 /* findroots.h */,
 				D1B741071FA8E86100BF3DB2 /* main.c */,
 			);
 			path = "Computer Programming Mid Term Project";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1B2B4E91FA8F80C007197A5 /* findroots.c in Sources */,
 				D1B741081FA8E86100BF3DB2 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,16 +238,22 @@
 		D1B7410C1FA8E86100BF3DB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8XR5BFJ8PC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		D1B7410D1FA8E86100BF3DB2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8XR5BFJ8PC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
